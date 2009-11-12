@@ -6,6 +6,7 @@ class TownCrier
 	
 	def initialize
 		$DEBUG = true  # Set this so output doesn't go to the background in the example.
+		pid = Process.pid
 		daemonize!
 		puts "Process running in background as PID: #{Process.pid}"
 		cry

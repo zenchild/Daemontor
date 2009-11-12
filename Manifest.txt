@@ -1,9 +1,11 @@
+COPYING.txt
 History.txt
 Manifest.txt
-PostInstall.txt
 README.rdoc
 Rakefile
+examples/town_crier.rb
 lib/daemontor.rb
+preamble
 script/console
 script/destroy
 script/generate
@@ -11,4 +13,3 @@ spec/daemontor_spec.rb
 spec/spec.opts
 spec/spec_helper.rb
 tasks/rspec.rake
-examples/town_crier.rb
