@@ -16,6 +16,9 @@ This module depends on the fork system call so it will not run on a Windows OS.
 	require 'daemontor'
 	class Test
 		include Daemontor
+		def initialize
+			daemonize!
+		end
 	end
 	Test.new
 
