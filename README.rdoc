@@ -1,0 +1,23 @@
+= daemontor
+
+* http://github.com/zenchild/daemontor
+
+== DESCRIPTION:
+
+If you are looking for a package that allows you to simply run a process in the background, Deamontor can help you out.
+
+== DEPENDENCIES
+
+This module depends on the fork system call so it will not run on a Windows OS.
+
+== SYNOPSIS:
+
+See code in examples/
+
+== INSTALL:
+
+sudo gem install daemontor
+
+== LICENSE:
+
+This project is licensed under GPLv3.  See COPYING.txt for details.
