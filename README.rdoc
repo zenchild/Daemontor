@@ -12,12 +12,12 @@ This module depends on the fork system call so it will not run on a Windows OS.
 
 == SYNOPSIS:
 
-require 'rubygems'
-require 'daemontor'
-
-class Test
-	include Daemontor
-end
+	require 'rubygems'
+	require 'daemontor'
+	class Test
+		include Daemontor
+	end
+	Test.new
 
 See code in examples/
 
